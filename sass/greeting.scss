@@ -1,0 +1,43 @@
+@import "colors";
+@import "fonts";
+
+.greeting {
+	position: relative;
+	width: 780px;
+	height: 740px;
+	transition: background-image 1s ease-in-out;
+	background: url("../img/truth-pixel.png") no-repeat 50% 30%;
+	background-size: contain;
+}
+
+.greeting__asterisk {
+	font-size: 80px;
+	color: $main-red-color;
+	text-align: center;
+}
+
+.greeting__logo {
+	text-align: center;
+	cursor: pointer;
+}
+
+.greeting__challenge {
+	padding-top: 300px;
+	margin: 0 auto;
+	text-align: center;
+
+	h3 {
+		@include bold-text;
+	}
+
+	p {
+		@include regular-text;
+	}
+}
+
+.greeting__continue {
+	position: absolute;
+	right: -150px;
+	top: 45%;
+	cursor: pointer;
+}

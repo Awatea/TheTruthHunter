@@ -1,0 +1,23 @@
+@import "colors";
+
+.social-link {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin: 0 2px;
+	font-size: 0;
+	vertical-align: top;
+	text-decoration: none;
+
+	&--gh {
+		background: transparent url("../img/icon-github.png") no-repeat center;
+	}
+
+	&--li {
+		background: transparent url("../img/icon-linkedin.png") no-repeat center;
+	}
+
+	&--mail {
+		background: transparent url("../img/icon-mail.png") no-repeat center;
+	}
+}

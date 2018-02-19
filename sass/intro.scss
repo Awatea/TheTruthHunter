@@ -1,0 +1,29 @@
+@import "colors";
+@import "fonts";
+
+.intro {
+	position: relative;
+	width: 800px;
+	height: 740px;
+	background: url("../img/truth-logo.png") no-repeat center;
+	background-size: contain;
+}
+
+.intro__start {
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	@include bold-text-start;
+	color: #ffffff;
+	cursor: pointer;
+
+	&:hover {
+		color: $link-hover-color;
+	}
+
+	&:active {
+		color: $link-active-color;
+	}
+}

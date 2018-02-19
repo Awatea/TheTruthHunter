@@ -1,0 +1,31 @@
+@mixin small-text() {
+	font: {
+		family: 'Ubuntu', sans-serif;
+		size: 12px;
+		weight: normal;
+	};
+	line-height: 12px;
+}
+@mixin regular-text() {
+	font: {
+		family: 'Ubuntu', sans-serif;
+		size: 22px;
+		weight: 500;
+	};
+	line-height: 34px;
+}
+@mixin bold-text() {
+	font: {
+		family: 'Ubuntu', sans-serif;
+		size: 30px;
+		weight: bold;
+	};
+	line-height: 30px;
+}
+@mixin bold-text-start() {
+	font: {
+		family: 'Ubuntu', sans-serif;
+		size: 80px;
+	};
+	line-height: 100px;
+}
